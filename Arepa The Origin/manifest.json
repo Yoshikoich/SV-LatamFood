@@ -1,0 +1,11 @@
+{
+    "Name": "Arepa The Origin",
+    "Author": "Yoshikoich",
+    "Version": "1.0.0",
+    "Description": "Arepa so good",
+    "UniqueID": "yoshikoich.ArepaTheOrigin",
+    "UpdateKeys": [], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
