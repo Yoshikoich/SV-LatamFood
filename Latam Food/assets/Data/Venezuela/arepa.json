@@ -1,0 +1,55 @@
+{
+    "Changes": [
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_arepa": 
+				{
+					"Name": "{{ModId}}_arepa    ",
+					"Displayname": "Arepa",
+					"Description": "Arepa veneca",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 50,
+					"Texture": "Mods/{{ModId}}/arepa",
+					"SpriteIndex": 0,
+					"Edibility": 35,
+					"IsDrink": false,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 300,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0.0,
+							"FishingLevel": 0.0,
+							"MiningLevel": 0.0,
+							"LuckLevel": 0.0,
+							"ForagingLevel": 1.0,
+							"MaxStamina": 0.0,
+							"MagneticRadius": 0.0,
+							"Speed": 0.0,
+							"Defense": 0.0,
+							"Attack": 0.0
+							},
+						}
+					]
+            	}
+    		},
+
+		},
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/arepa",
+            "FromFile": "assets/Items/Objects/arepa.png"
+        }
+    ]
+}

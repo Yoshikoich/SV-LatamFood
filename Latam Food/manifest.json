@@ -1,0 +1,11 @@
+{
+    "Name": "(CP) Latam Food",
+    "Author": "Yoshikoich",
+    "Version": "1.0.0",
+    "Description": "Comida de Latam",
+    "UniqueID": "yoshikoich.LatamFood",
+    "UpdateKeys": [], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
